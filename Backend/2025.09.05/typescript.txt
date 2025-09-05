@@ -1,0 +1,182 @@
+https://www.typescriptlang.org/ dokumentáció
+
+node package mannager npm
+
+node.js a javascript fog futni nem a sima 
+node package csomagokban lévő kodok 
+
+javascript böngészöben fut 
+jó mert a saját gépden fut, 
+rossz 
+szerver oldalon is használjuk
+segédeszköz ami egy futtato környezet ami a node
+ott is tudd futatni
+
+Mostantól felhasználok dolgokat
+
+nem fogod tudni futtatni csak böngészöben
+
+kell egy package manager kezeli a dolgokathogy ne neked keljen megirnod
+
+nativ javascriptel mindent megtudsz irni
+
+mozzila oldala https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
+
+Alap szabályok amik a böngészönek kell megtalálhatok ezen az oldalon
+
+Javascript hivj egy web szervert. Más megirták express
+
+Csak használni fogjuk
+
+van nativ javascript
+van node.js szintén javascriptcsak segit hogy legyen futtato környezet
+
+package mannager ami segit használni
+
+beinportál modulokat
+
+Linux hasonlon mükszik
+
+pm használni akarok modulokat vannak függöségek
+
+a függöségek lekövetésében segit
+
+feltelepitek 1 mpm csomagot van vagy 100 mellette
+a node modul mappát nem töltünk fel
+
+gitnél se töltjük fel
+
+senknek nincs node telepitve
+
+node js download 
+	az oldalról letölt
+
+lesz scl hogy tudd futatni
+visual studio code
+
+lehet a typescriptet használni
+de nem önálló dolog 
+befordit javascriptbe
+tipizálja a javascriptet
+erősen tipusos lesz
+
+typescript forditoja a tsc
+
+tsc egy package alapból nincsen
+ahoz hogy valami legyen. letölteni exe file de nem igy lesz
+
+a csomagkezelö adja meg a lehetöséget hogy tudjuk a typescriptet használni
+
+segit forditani és hogy ne keljen kézzel futatgatnunk
+
+mikor node alapu projaóekt azt tudjuk inicializálni
+létrehozunk egy mappáőt
+
+fontos a mappa a node szempontjából az elérési ut miatt
+lehet hogy az összetettebb projekt
+backendben és frontendben is futatt script
+nem mindegy hol hivod a parancsokat
+
+Mindig a jó heyen legyen a prompt
+minden mükődik cd.. is
+
+Ahoz hogy inicializáljam a nodot
+
+a csomagkezelövel inicializálhatom
+	npm init
+
+legenerál egy json filet
+belépési pont az index.js
+van egy script egy testet egy developermodot egy buildet egyééb modot szeretnék létrehozni mik a konkrét utasitás
+saját részleteket
+
+lehet ugy is hogy npm init -yes ha nem akarsz enterezni
+
+létrejött a package
+semmit nem tartalmaz ami eltérne
+majd valami lesz ezt megmondtuk
+van leiro fileom amiben megtalálhatok infok
+
+Ha egy node.js es hivatalos modult irok akkor ha fel akarom tölteni akkor értelmesen kikell tölteni
+javascriptes
+
+ha akarok javascriptezni akkkor csinálok index.js-t
+rendzer de mindig volt központi file
+nekünk jelen esetben a main az alap
+
+de akkr egy böngészöt inditok
+kezdetben ha a nodeot használom be kell majd irnom
+
+melyik dolgot akarom befutatni
+
+egy node os projektnál ebben a packageba tárolom a speciálisinfokat
+a csomagok meg függöségek
+
+még nincs typescriptg
+
+how to set up typescript
+npm install typescript --save --dev
+
+mi az a --save és --dev
+	alapértelmezés szerint 2 dolog
+	fejlesztői mode developer mode amikor fejlesztem akkor nem önálló hanem forditásnál itt typescriptet futtatom élesen javascriptet küönbség bizonyos csomagok csak a fejlesztéshez bildelésnél nem fogja használni
+	a végén nem lesz belöle typescript nem nagy dolog ha nem dev mode de akkor onnantol kezdve kell 
+	
+letelepitem és devdependenci a package.jsonban
+npx tsc val tudom elkezdeni futatni
+
+ha futataom akkor javascriptet létrehoz
+ha letöltöd a typescript builderét akkor sima tsc de a gépeken nincs
+
+npx a különböző csomagokan lévő dolgokat keresse és futtassa
+
+typescript node az a tsc
+amior a node letudja futatni a konkrét typescriptodunkat
+npm i -d ts-node
+
+ahoz hogy lefutathassam npx ts-node .\valami.js
+
+a buildertet kell futatni
+
+devdependenci verzio számok
+a node legujabb verzioi 2 honap mulva már nem uj
+legalább az a verzio ami éppen aktuális
+a kalap hog ennél fentebbi verzio jó
+ha nincs kalap akkor csak ez a verzio
+segit a csomagkezelésben
+
+mindenki legyen tisztában a verziokkal
+
+van olyan csomag ami mindig ujrafordit nekünk
+
+nodemon nemtudja a tst értelmezni ezért bekell paraméterezni
+
+a json egy objektum és dolgozik
+
+a typescript most javascript
+van egy egszerü környezetünk
+
+akkor lesz typescript a typescript ha lesz uj konfigurácios rész
+
+ha eredetileg typescriptként hozod létre
+tsc mukodik
+tsconfig kicit más
+lintert rak be tslint berakja a latestverziot
+vannak olyan extensionok amik segitenek clean codot csinálni hogy müködjön a typescript
+melyik librarit használod lib
+azért problémás mert a linter ellenöriz
+nem követed a szabvány szerinti kodolást
+nagy hibák
+jó mert keretet ad src mappa
+tsconfig felülirható
+
+különféle beállitások segitenek de ha nemtudod mit csinál akkor jobb ha nem bonyolult
+ne generáltass a rendszerrel
+kézzwl irj tsconfigot
+milyen modult akarok irni olyan fajtát szeretnék
+
+van szintactikai ellenörzés
+linterek ellenöriznek 
+
+type modul 
+	comon
