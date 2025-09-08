@@ -1,0 +1,40 @@
+https://github.com/szilasii/13c_2csop
+repozirori lehuzod
+
+npm run build mi alapján builder
+a tsconfigot vezsi figyelmü
+compiler optionok amikor elkésziti a fileokat
+
+amikor  létrehoztuk van egy csomo info
+rootdir hol keresen
+outdir lehet az a mappa ahova berakhatja majd a fileokat
+
+ha te builderni akarsz akkkor törölje mert nem törli
+dist nem megy fel a gitbe
+
+fontos target rootdir és outdir és module
+
+ha vallamit kikomentezel akkor mást is lehet kikell
+
+lehet egy index.html ogy hivatkozunk
+
+dist mappa most a root mappa
+
+adathalmazt def const
+
+vannak ujabb inportok
+
+inportálhatok egy függvényt vagy változot vagy konyvtara
+mit akarok importálni és honnan
+
+import export megkell mondanom mit akarok publikálni és mit nem
+
+exportálás file végén megmondom hogy defaultkánt exprtál
+
+inportálás engedélyezés
+meg a noemit is kell
+
+importnál nem kell ts se js
+
+a tiypescriptben a kiterjesztést elkell hagyni
+
