@@ -1,0 +1,29 @@
+stringek javascriptben
+
+A string a szöveg tipusú változó
+metodusok:
+	length hossza
+	concat hozzáad dolgokat
+	slice substring uganaz
+	toupper minden nagybetű
+	toLover minden kisbetű
+	trim levágja a vgéről meg az elejéről a spacet
+	trimstart az elejérol levágja
+	trimend a végéről levágja
+	split szétvagdossa
+	repeat megismétli ahányszor kérem
+	replace kicseréli a megadott elemeket 
+	substring 7 elemmár benne van és a 13 már nincs
+	substr a 7.elemtől 6bot
+	charat visszadja az elemet
+	caharcodeat visszaadja az elem számát
+	at visszadja azt az indexu elemet
+	padstart az a megadottt indexig beleilleszti az elemeket
+	padend a megadott indexig illeszti be az elemeket a meglévő után
+	endswith bool-al vissza ha azzal végződik
+	startwith bool-al ha azzal kezdodik
+	includes ha tartalmas specifikus szavakat bool
+	valueof visszatér az értékkel
+
+
+	
