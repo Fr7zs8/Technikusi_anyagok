@@ -1,0 +1,40 @@
+Az import nem nyul bele a ts fileokba
+Ezért nem fogja odairni hogy js
+Vagy prebilderelknek segitségével átalakitják
+Vagy oda gépeled
+
+Hogy tudunk osztályt definiálni:
+	class
+	lehet private public protected readonly
+	constructor
+	get set
+	függvenyek
+	
+default export 1 elem abban az esetben nem kell szögletes zárojelbe tenni
+tudod használni
+pl modulok vannak függvényeid 
+Elöny:
+	forsitásnál a csomo függvényből exportálom 
+	compilolás során ha vot exportálva akkor tudom használni
+	a végén csak azt forditja bele
+	függöségeket figyelembe veszi
+
+export és felsorolják
+a végén is lehet az export
+javascriptben nincs interface kidobja forditáskor
+typescriptet azért hogy tipusos legyen interface
+alapvetöen adatbázisból dolgozunk aminek vannak megzői
+interface fogja megmondani hogy megadjuk a tipusokat
+mindenhol ugyanazt az adathalmazt kell kapnom
+ha definiálom tudom mit várok
+elvárások milyen adatot akarok feldolgozni
+Hogy mit várok el
+Haszon:
+	ha ugyanazokat az adatokat használod nem lesz kusza
+
+javascript kis és nagybetű érzékeny
+typescript hibás a javascriptben meg nem
+lefut
+a typescript a fejlesztőknek készült hogy tipusoosá tegye
+
+lint és hint tipusu hiba
