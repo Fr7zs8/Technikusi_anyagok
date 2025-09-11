@@ -1,0 +1,7 @@
+H:\13 évfolyam\asztali\Feladat_09.11\Feladat_09.11\bin\Debug\Feladat_09.11.exe.config
+H:\13 évfolyam\asztali\Feladat_09.11\Feladat_09.11\bin\Debug\Feladat_09.11.exe
+H:\13 évfolyam\asztali\Feladat_09.11\Feladat_09.11\bin\Debug\Feladat_09.11.pdb
+H:\13 évfolyam\asztali\Feladat_09.11\Feladat_09.11\obj\Debug\Feladat_09.11.csproj.AssemblyReference.cache
+H:\13 évfolyam\asztali\Feladat_09.11\Feladat_09.11\obj\Debug\Feladat_09.11.csproj.CoreCompileInputs.cache
+H:\13 évfolyam\asztali\Feladat_09.11\Feladat_09.11\obj\Debug\Feladat_09.11.exe
+H:\13 évfolyam\asztali\Feladat_09.11\Feladat_09.11\obj\Debug\Feladat_09.11.pdb
