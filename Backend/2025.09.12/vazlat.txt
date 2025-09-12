@@ -1,0 +1,39 @@
+interface tertalmazhat függvényt és furáán jön ki de lehet
+
+interface egy tipus
+
+ha a ! akkor elhagyható a constructorban
+ha valamiért nem akrod a konstructorban inicializálni
+
+readonly inicializálni tusom de már settelni nem lehet
+lehet több constructor
+a constructorok felölirhatják egymást
+documentáció szerint van constructor felülirás
+
+nem olyan erős szabály hogy private legyen
+akkor használunk gettert meg settert ha bonyolultabb a lekérdezési logika
+
+get setnél nagy betű _ valahol
+getnél meg simán
+nem szoktunk gettert settert
+
+implement interfaceknek van hogy az osztálynak megvannak e a mezonevei
+extends nem öröklünk interfacet
+interface örökölhet interfacet
+
+type kulcsszó
+	létrehozunk egy tipust ami az Ikuty és az Ikutya2ből lett összerakva
+tipusokat lehet degfiniálni
+type number | null
+
+||  ha nem létezik AKKOR null értékadás
+| lehet string VAGY null definició
+
+rádefiniálhatok az interfacere
+
+type string és number ez egy never
+nemtudsz mit csinálni
+
+feladat:
+	typescriptben egy olyat ami ezt az adathalmazt ami megjeleniti táblázatos formába
+
