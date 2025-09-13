@@ -55,7 +55,7 @@ interface IKutya {
     const tr = document.createElement("tr");
     thead.appendChild(tr);
 
-    const fejlec = ["Id", "Név", "Fajta", "Nem", "Elekor", "Url"];
+    const fejlec = ["Id", "Név", "Fajta", "Nem", "Élekor", "Kép"];
 
     for(let fejl of fejlec){
       const th = document.createElement("th");
@@ -72,10 +72,35 @@ interface IKutya {
       const tr = document.createElement("tr");
       tbody.appendChild(tr);
       
-      const td = document.createElement("td");
+      this.maketd(String(ku.id), tr);
+      this.maketd(ku.nev, tr);
+      this.maketd(ku.fajta, tr);
+      if(ku.nem == true){
+        const nem = "lány";
+        this.maketd(nem, tr);
+      }
+      else{
+        const nem = "fiú";
+        this.maketd(nem, tr);
+      }
+
       
+      this.maketd(String(ku.eletkor), tr);
+      
+      const td = document.createElement("td");
+      const image = document.createElement("img");
+      image.src = String(ku.kepUrl);
+      td.appendChild(image);
+      tr.appendChild(td);
+        
     }
 
+  }
+
+  public maketd(elem: string, tr:HTMLTableRowElement){
+    const td = document.createElement("td");
+    td.innerText = elem;
+    tr.appendChild(td);
   }
 
   
