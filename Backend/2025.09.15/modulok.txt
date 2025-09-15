@@ -1,0 +1,55 @@
+Modulok:
+	Import export -> ha nincs akkor nem modul
+	ha modulként akarjuk hasznáni akkor export
+	speciális kulcsszavak export file végén vagy amikr létrehozom
+	export default -> const elhagy
+	sima exportnál nem ir felül változpnevet de as al igen
+	
+Névterek
+	importnál névtereket definiálsz
+	import * as xy
+	xy.Kutya
+	xy.defalut
+	xy.Maci
+	
+importálhatom az egész filet nem veszi figyelembe az exportokat
+exportálhatok typokat interfacet és egyebet
+van lehetőséghogy tipusokat inportáljak
+	import type ... (nem használható függvény)
+
+simán akarok common js modulokat akkor import fs = require fs
+tsconfigban common.js module
+module.exports = { }
+import xyz =  require(".\kutya.js")
+
+js fileben importlhatsz
+commonjs t lehet használni
+types vannak tipusok mi alapján akarom befiniálni
+milyen tipusu tipusokat node többet is
+telepiteni kell save devvel
+express, node
+
+szabvány szerint kell definiálni a modult
+commonjs 
+
+modul azhatározza meg milyen szabványt akarok hazsnálni
+target meghatározza mely funkciok lesznek visszaminősitv a moduloknál
+
+strict true
+beállitások hogy szabványközelebbi
+type letrehozas 
+
+megkell nézni hogy van e benne elem
+esnext nem böngésző kompostibi
+es böngésző kompatibilis
+
+? az adott mező opcionális
+
+függvénytipus létrehoz
+void kell 
+
+függvény mint tipus
+	megirod a typot és utána meg hivod
+
+
+	
