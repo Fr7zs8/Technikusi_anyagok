@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function recepteLekerdez(){
+            setTimeout(() => {
+                const receptID = [8, 92, 12, 475, 32, 668];
+                console.log(receptID);
+
+                setTimeout(() => {
+                    const recept = {
+                        id: 92,
+                        cim: "Izletes májgaluska",
+                        nehezseg: "Könnyű",
+                        ido: 30,
+                        koltseg: 500,
+                        kategoria: "Majgaluska leves"
+                    };
+
+                    console.log(recept)
+
+                    setTimeout((kategoria) => {
+                    const receptId = [92, 34, 128, 3];
+                    console.log(receptId);
+
+                    setTimeout(() => {
+                        const recept = {
+                        id: 128,
+                        cim: "Zöldséges májgaluska",
+                        nehezseg: "Könnyű",
+                        ido: 55,
+                        koltseg: 700,
+                        kategoria: "Majgaluska leves"
+                    };
+                    console.log(recept)
+                    }, 1500);
+                }, 2000);
+
+
+                }, 1500);
+
+                
+
+            }, 1800);
+        }
+        // Callback hell
+        recepteLekerdez();
+    </script>
+</body>
+</html>

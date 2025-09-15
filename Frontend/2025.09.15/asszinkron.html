@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szinkron és aszinkron utasitásvégrehajtás</title>
+</head>
+<body>
+    <script>
+        const B = () =>{
+            setTimeout(() => {
+                console.log("B");
+            }, 1000);
+            
+        }
+
+        const FG = () =>{
+            console.log("A")
+            B();
+            console.log("C");
+        }
+
+        FG();
+
+        
+
+    </script>
+</body>
+</html>

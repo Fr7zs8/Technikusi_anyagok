@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receptkönyv</title>
+</head>
+<body>
+    <script>
+        const receptekLekerdez = new Promise( (resolve, reject) => {
+            setTimeout(() => {
+                const receptID = [8, 92, 12, 475, 32, 668];
+                if(Math.random() > 0.1)
+                    resolve(receptID);
+                reject("Valami hiba történt a receptlekérések közben");
+            }, 1500);
+        });
+
+        const majgauskaLekerdez = id => new Promise((resolve, reject) => {
+            setTimeout((id) => {
+                const recept = {
+                        id: 92,
+                        cim: "Izletes májgaluska",
+                        nehezseg: "Könnyű",
+                        ido: 30,
+                        koltseg: 500,
+                        kategoria: "Majgaluska leves"
+                    };
+                    resolve(recept);
+            }, 1500);
+        })
+
+        const receptByKategoria = kategoria => new Promise((resolve, reject) =>{
+            setTimeout((kategoria) => {
+                    const receptId = [92, 34, 128, 3];
+                    resolve(receptId);
+            }, 1800)
+        })
+
+        const receptMajgaluska = id => new Promise((resolve, reject) =>{
+            setTimeout((id) => {
+                const recept = {
+                        id: 128,
+                        cim: "Zöldséges májgaluska",
+                        nehezseg: "Könnyű",
+                        ido: 55,
+                        koltseg: 700,
+                        kategoria: "Majgaluska leves"
+                    };
+                    resolve(recept);
+            }, 1500);
+        })
+
+
+
+        receptekLekerdez.then((receptek) => {
+            console.log(receptek);
+            return majgauskaLekerdez(receptek[1]);
+        })
+        .then(recept => {console.log(recept); 
+            return receptByKategoria(recept)
+        })
+        .then(kategoriakId =>{
+            console.log(kategoriakId);
+            return receptMajgaluska(128);
+        })
+        .then(kategoriakId => {console.log(kategoriakId);})
+        .catch( error =>{
+            console.log(error);
+        })
+        .finally(() => {
+            console.log("A finali mindenkép lefut");
+        });
+        
+        
+
+
+    </script>
+</body>
+</html>
