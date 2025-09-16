@@ -1,0 +1,7 @@
+H:\13 évfolyam\asztali\2025.09.16\2025.09.16\bin\Debug\2025.09.16.exe.config
+H:\13 évfolyam\asztali\2025.09.16\2025.09.16\bin\Debug\2025.09.16.exe
+H:\13 évfolyam\asztali\2025.09.16\2025.09.16\bin\Debug\2025.09.16.pdb
+H:\13 évfolyam\asztali\2025.09.16\2025.09.16\obj\Debug\2025.09.16.csproj.AssemblyReference.cache
+H:\13 évfolyam\asztali\2025.09.16\2025.09.16\obj\Debug\2025.09.16.csproj.CoreCompileInputs.cache
+H:\13 évfolyam\asztali\2025.09.16\2025.09.16\obj\Debug\2025.09.16.exe
+H:\13 évfolyam\asztali\2025.09.16\2025.09.16\obj\Debug\2025.09.16.pdb
