@@ -1,0 +1,39 @@
+Rest API
+
+Egy szabványos modszer amivel a szoftverek alkalmazások tudnak maj dkommunikálni az interneten keresztül
+http protocolja van
+az alapvető http műveletekre fogunk felépitami müveleteket
+amivel fogjuk elérni az erőforrásoakt
+
+domaines rész termekek
+adatcere xml volt most json
+objektumként irjuk le az infot
+lényegtelen hogy a kliens milyen állapotban van minden kérés önálló
+minden kérésnek kell tartalmazni infot ami a lekéréshez szükséges
+elkel küldened a bejelntkezés
+webes 
+url hivások
+
+Kérés tipusu műveletek
+GET, POST, PUT, PACH, DELETE
+ezek alapján fogom tudni az erőforrást elérni
+GET lekérünk vagy kiolvasunk vaéamit
+Szolok a szerveznek jön valamilyen válasz
+böngésző cimsorában láttom
+POST új adat
+PUT adatok hosszáadása teljes frissitése vagy cseréja -> csinl egyet
+PATCH adatok hozzáadása egy részlegess frissitése
+DELETE töröl
+
+megszolitjuk az url seggitségével
+
+elöredefiniált végpontok
+
+web értelmezni tudta a szerver oldali kodokat
+javascript nem filekezels
+
+express
+webszerver használat
+
+szegmentálok
+.env környezeti változok -> git ignpr jelszó mehet bele
