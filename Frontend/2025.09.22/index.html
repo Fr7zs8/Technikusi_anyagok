@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iTunes zene kereső applikáció</title>
+    <style>
+        .cim-td{
+            cursor: grabbing;
+        }
+        .cim-td:hover{
+            font-weight: 600;
+            background-color: rgb(238, 229, 218);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>iTunes zenei alkalmazás</h1>
+
+    <h2>Mit keressek meg?</h2>
+    <input type="text" id="input-keresett">
+    <button id="btn-kereses">Keresés</button>
+
+    <div id = zenelejetszo></div>
+
+    <table>
+        <thead>
+            <tr>
+                <td>Előadó</td>
+                <td>Cim</td>
+                <td>Megjelenés éve</td>
+                <td>Műfaj</td>
+                <td>Zene hossza</td>
+            </tr>
+        </thead>
+        <tbody id="zenek">
+
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
