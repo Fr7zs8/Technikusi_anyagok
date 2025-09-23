@@ -1,0 +1,65 @@
+#adatok{
+    width: 500px;
+    margin: auto;
+    font-size: large;
+    background-color: lightpink;
+    border-radius: 15px;
+}
+
+#hpdiv{
+    font-size: 30px;
+    width: 40px;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+#namediv{
+    text-align: center;
+    font-size: 40px;
+}
+
+#typediv{
+    text-align: center;
+    font-size: 40px;
+}
+
+img{
+    padding-top: 50px;
+    margin-left: 50px;
+    width: 400px;
+    
+}
+
+#attackdiv{
+    float: left;
+    margin: 10px;
+    font-size: 25px;
+}
+
+#defencediv{
+    float: left;
+    margin: 10px;
+    font-size: 25px;
+}
+
+#speeddiv{
+    margin: 10px;
+    font-size: 25px;
+}
+
+h1{
+    text-align: center;
+}
+
+#btn-div{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btn{
+    background-color: lightblue;
+    padding: 5px;
+    border: 1px black solid;
+    font-size: large;
+}
