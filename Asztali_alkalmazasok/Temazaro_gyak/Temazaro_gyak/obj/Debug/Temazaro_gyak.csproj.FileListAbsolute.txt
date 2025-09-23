@@ -1,0 +1,7 @@
+H:\13 évfolyam\asztali\Temazaro_gyak\Temazaro_gyak\bin\Debug\Temazaro_gyak.exe.config
+H:\13 évfolyam\asztali\Temazaro_gyak\Temazaro_gyak\bin\Debug\Temazaro_gyak.exe
+H:\13 évfolyam\asztali\Temazaro_gyak\Temazaro_gyak\bin\Debug\Temazaro_gyak.pdb
+H:\13 évfolyam\asztali\Temazaro_gyak\Temazaro_gyak\obj\Debug\Temazaro_gyak.csproj.AssemblyReference.cache
+H:\13 évfolyam\asztali\Temazaro_gyak\Temazaro_gyak\obj\Debug\Temazaro_gyak.csproj.CoreCompileInputs.cache
+H:\13 évfolyam\asztali\Temazaro_gyak\Temazaro_gyak\obj\Debug\Temazaro_gyak.exe
+H:\13 évfolyam\asztali\Temazaro_gyak\Temazaro_gyak\obj\Debug\Temazaro_gyak.pdb
