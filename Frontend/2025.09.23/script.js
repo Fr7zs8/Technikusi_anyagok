@@ -10,16 +10,13 @@ function lekeres(){
         fetch(url)
         .then(response => response.json())
         .then(adatok => {
+            console.log(adatok);
             megjelenites(adatok.stats[0].base_stat, adatok.name, adatok.types[0].type.name, adatok.stats[1].base_stat, adatok.stats[3].base_stat, adatok.stats[5].base_stat, adatok.sprites.other["official-artwork"].front_default)
-            
-            
         })
         .catch()
 }
 
 function megjelenites(hp, name, type, attack, defence, speed, image){
-
-    
     const hpdiv = document.createElement("div");
     hpdiv.id = "hpdiv";
     hpdiv.innerHTML = "Hp: " + hp;
@@ -54,8 +51,5 @@ function megjelenites(hp, name, type, attack, defence, speed, image){
     sppeddiv.id = "speeddiv";
     sppeddiv.innerHTML = "Speed: "+ speed;
     $("adatok").appendChild(sppeddiv);
-    
-
-    
 }
 
