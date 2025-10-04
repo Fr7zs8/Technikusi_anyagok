@@ -1,0 +1,123 @@
+body {
+    background-color: #1a1a1a;
+    color: #f5f5f5;
+    font-family: 'Georgia', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+#btn {
+    margin: 10px;
+    background-color: #4B2E83;
+    color: #FFD700;
+    font-family: 'Georgia', serif;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border: 2px solid #FFD700;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-bottom: 30px;
+}
+
+#btn:hover {
+    background-color: #371f5b;
+}
+
+#caracteradatok {
+    background-color: #2c2c2c;
+    border: 4px solid;
+    border-radius: 12px;
+    padding: 20px;
+    width: 100%;
+    max-width: 320px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+}
+
+#caracteradatok img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+#caracteradatok h3 {
+    margin: 10px 0 5px;
+    font-size: 1.5rem;
+    color: #FFD700;
+}
+
+#caracteradatok h4 {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #cccccc;
+}
+
+
+.house-badge {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+.house-Gryffindor {
+    background-color: #7F0909;
+    color: #FFD700;
+}
+
+.house-Slytherin {
+  background-color: #1A472A;
+  color: #C0C0C0;
+}
+
+.house-Ravenclaw {
+  background-color: #0E1A40;
+  color: #B08D57;
+}
+
+.house-Hufflepuff {
+  background-color: #EEE117;
+  color: #000000;
+}
+
+#caracteradatok.house-border-Gryffindor {
+  border-color: #7F0909;
+}
+
+#caracteradatok.house-border-Slytherin {
+  border-color: #1A472A;
+}
+
+#caracteradatok.house-border-Ravenclaw {
+  border-color: #0E1A40;
+}
+
+#caracteradatok.house-border-Hufflepuff {
+  border-color: #EEE117;
+}
+
+/* Reszponzív */
+@media (max-width: 400px) {
+  .magic-button {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  #caracteradatok {
+    padding: 15px;
+    max-width: 90%;
+  }
+
+  #caracteradatok h3 {
+    font-size: 1.3rem;
+  }
+}
+
