@@ -1,0 +1,6 @@
+main {
+  flex: calc(70% - 40px);
+  margin: 20px;
+  background-color: aliceblue;
+  padding: 20ppx 40px;
+}

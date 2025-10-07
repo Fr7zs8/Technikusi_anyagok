@@ -1,0 +1,33 @@
+nav {
+  flex: 30%;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  width: 300px;
+  background-color: rgb(74, 74, 158);
+  margin-left: 40px;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+nav ul li {
+  border-bottom: 1px solid lavender;
+}
+
+nav ul li:last-child {
+  border-bottom: none;
+}
+
+nav ul li a {
+  display: block;
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 15px 20px;
+  font-size: 20px;
+}
+
+nav ul li a:hover {
+  background-color: lavender;
+  color: black;
+}
