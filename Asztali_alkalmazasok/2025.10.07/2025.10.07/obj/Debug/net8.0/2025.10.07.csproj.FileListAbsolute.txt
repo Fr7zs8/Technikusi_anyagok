@@ -1,0 +1,11 @@
+H:\13 évfolyam\asztali\2025.10.07\2025.10.07\bin\Debug\net8.0\2025.10.07.deps.json
+H:\13 évfolyam\asztali\2025.10.07\2025.10.07\bin\Debug\net8.0\2025.10.07.dll
+H:\13 évfolyam\asztali\2025.10.07\2025.10.07\bin\Debug\net8.0\2025.10.07.pdb
+H:\13 évfolyam\asztali\2025.10.07\2025.10.07\obj\Debug\net8.0\2025.10.07.GeneratedMSBuildEditorConfig.editorconfig
+H:\13 évfolyam\asztali\2025.10.07\2025.10.07\obj\Debug\net8.0\2025.10.07.AssemblyInfoInputs.cache
+H:\13 évfolyam\asztali\2025.10.07\2025.10.07\obj\Debug\net8.0\2025.10.07.AssemblyInfo.cs
+H:\13 évfolyam\asztali\2025.10.07\2025.10.07\obj\Debug\net8.0\2025.10.07.csproj.CoreCompileInputs.cache
+H:\13 évfolyam\asztali\2025.10.07\2025.10.07\obj\Debug\net8.0\2025.10.07.dll
+H:\13 évfolyam\asztali\2025.10.07\2025.10.07\obj\Debug\net8.0\refint\2025.10.07.dll
+H:\13 évfolyam\asztali\2025.10.07\2025.10.07\obj\Debug\net8.0\2025.10.07.pdb
+H:\13 évfolyam\asztali\2025.10.07\2025.10.07\obj\Debug\net8.0\ref\2025.10.07.dll
