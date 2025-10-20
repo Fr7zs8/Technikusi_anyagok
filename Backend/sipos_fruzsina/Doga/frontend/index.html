@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autok</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>A rendszerben jelenleg meglévő autók</h1>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Rendszám</th>
+                    <th>Márka</th>
+                    <th>Évjárat</th>
+                    <th>Szín</th>
+                    <th>Törlés</th>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+    </div>
+
+    <button id="addCarBtn">+ Új autó hozzáadása</button>
+
+    <div id="formContainer" class="hidden">
+        <h2>Új autó hozzáadása</h2>
+        <form id="carForm">
+            <label for="rendszam">Rendszám:</label>
+            <input type="text" id="rendszam" name="rendszam" required>
+
+            <label for="tipus">Típus:</label>
+            <input type="text" id="tipus" name="tipus" required>
+
+            <label for="evjarat">Évjárat:</label>
+            <input type="number" id="evjarat" name="evjarat" required>
+
+            <label for="szin">Szín:</label>
+            <input type="text" id="szin" name="szin" required>
+
+            <button type="submit">Hozzáadás</button>
+        </form>
+    </div>
+    
+    <script type="module" src="functions.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>

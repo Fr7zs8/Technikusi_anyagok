@@ -1,0 +1,7 @@
+H:\13 évfolyam\asztali\Szalloda\Szalloda\obj\Debug\Szalloda.csproj.AssemblyReference.cache
+H:\13 évfolyam\asztali\Szalloda\Szalloda\obj\Debug\Szalloda.csproj.CoreCompileInputs.cache
+H:\13 évfolyam\asztali\Szalloda\Szalloda\bin\Debug\Szalloda.exe.config
+H:\13 évfolyam\asztali\Szalloda\Szalloda\bin\Debug\Szalloda.exe
+H:\13 évfolyam\asztali\Szalloda\Szalloda\bin\Debug\Szalloda.pdb
+H:\13 évfolyam\asztali\Szalloda\Szalloda\obj\Debug\Szalloda.exe
+H:\13 évfolyam\asztali\Szalloda\Szalloda\obj\Debug\Szalloda.pdb

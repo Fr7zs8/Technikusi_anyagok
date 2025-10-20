@@ -1,0 +1,146 @@
+/* Alap sötét háttér és világos szöveg */
+body {
+    background-color: #1c1b2f;
+    color: #e0d7f7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 2rem;
+}
+
+/* Címsor */
+h1 {
+    color: #c9a0ff;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+/* Táblázat */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #2a2740;
+    box-shadow: 0 0 15px rgba(201, 160, 255, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Fejléc */
+thead {
+    background-color: #3a2f57;
+}
+
+thead th {
+    padding: 1rem;
+    color: #f0eaff;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+/* Sorok */
+tbody tr {
+    border-bottom: 1px solid #4d3d70;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #322a4d;
+}
+
+tbody tr:hover {
+    background-color: #4a3b72;
+    transition: 0.3s;
+}
+
+td {
+    padding: 0.8rem;
+    text-align: center;
+    color: #e0d7f7;
+}
+
+/* Gomb stílus */
+#addCarBtn {
+    display: block;
+    margin: 2rem auto;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    background-color: #5e44a3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#addCarBtn:hover {
+    background-color: #7b5bd6;
+}
+
+/* Form konténer stílus */
+#formContainer {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #2a2740;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(201, 160, 255, 0.1);
+    color: #e0d7f7;
+}
+
+/* Elrejtés osztály */
+.hidden {
+    display: none;
+}
+
+/* Űrlap elemek */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+form input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form button[type="submit"] {
+    margin-top: 1.5rem;
+    padding: 0.7rem;
+    background-color: #5e44a3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button[type="submit"]:hover {
+    background-color: #7b5bd6;
+}
+
+button.delete-btn {
+    background-color: #7b2ff7; /* lilás árnyalat */
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.delete-btn:hover {
+    background-color: #5a1bd8; /* sötétebb lila hoverkor */
+    box-shadow: 0 0 8px #5a1bd8aa;
+}
+
+button.delete-btn:active {
+    background-color: #3e0faf;
+    box-shadow: none;
+}
