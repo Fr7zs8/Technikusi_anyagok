@@ -1,0 +1,19 @@
+body{
+    background-color: lightcyan;
+}
+
+.formdiv{
+    width:33%;
+    float:left;
+}
+
+.carddiv{
+    width:66%;
+    float:left;
+}
+
+.card{
+    float: left;
+    margin: 10px;
+    border: 1px, black, solid;
+}
