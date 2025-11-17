@@ -1,0 +1,45 @@
+#root {
+  margin: 5% auto;
+  padding: 15px;
+  text-align: center;
+}
+
+.auto{
+    border: 2px solid #646cffaa;
+    border-radius: 5px;
+    padding:  20px;
+    margin: 30px;
+}
+
+.autok{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main{
+  display: flex;
+}
+
+.auto-section{
+  width: 70%;
+  margin-right: 60px;
+}
+
+.ujautok-section{
+  width: 300px;
+  margin-left: 60px;
+}
+
+.uj-auto{
+  width: 100%;
+  border: 2px solid #646cffaa;
+  border-radius: 5px;
+  padding:  20px;
+  padding-bottom: 5px;
+  margin: 30px;
+  margin-top: 60px;
+}
+
+.uj-auto td{
+  padding-bottom: 15px;
+}
