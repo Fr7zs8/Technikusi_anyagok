@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.esemeny{
+  border: 2px solid purple;
+  padding: 10px;
+  margin: 5px;
+}
+
+.esemenyek{
+  display: flex;
+}
+
+main{
+  display: flex;
+}
+
+table{
+  margin: 3px;
+  border: 2px solid purple;
+  border-radius: 20px;
+  padding: 10px;
+}
